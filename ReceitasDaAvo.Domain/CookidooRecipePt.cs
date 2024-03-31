@@ -23,10 +23,10 @@ namespace ReceitasDaAvo.Domain
 		public string Portions { get; set; }
 
 		[JsonProperty("rating_count")]
-		public int RatingCount { get; set; }
+		public string RatingCount { get; set; }
 
 		[JsonProperty("rating_score")]
-		public float RatingScore { get; set; }
+		public string RatingScore { get; set; }
 
 		[JsonProperty("steps")]
 		public IEnumerable<string> Steps { get; set; }
