@@ -206,3 +206,5 @@ document.GeneratePdf(string.IsNullOrWhiteSpace(savePath)? $"{saveFileName}.pdf" 
 
 // use the following invocation
 //document.ShowInPreviewer();
+
+Console.ReadLine();
